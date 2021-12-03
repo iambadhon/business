@@ -1,17 +1,11 @@
 $(function () {
 
-    //============================preloader section start============================//
-    $(window).on("load", function () {
-        $(".preloader").delay(500).fadeOut(800);
-    });
-    //============================preloader section end============================//
-
     //============================scroll to top section start============================//
     $(".scroll_to_top").click(function () {
         $("html, body").animate({
                 scrollTop: 0,
             },
-            2000);
+            00);
     });
 
     $(window).scroll(function () {
@@ -21,12 +15,6 @@ $(function () {
             $(".scroll_to_top").fadeIn(800);
         } else {
             $(".scroll_to_top").fadeOut(800);
-        }
-
-        if (scrolling > 150) {
-            $("#nav").addClass("nav_sticky");
-        } else {
-            $("#nav").removeClass("nav_sticky")
         }
 
         if (scrolling > 150) {
@@ -125,7 +113,7 @@ $(function () {
             if (target.length) {
                 html_body.animate({
                     scrollTop: target.offset().top - 0
-                }, 1500, );
+                }, 00, );
                 return false;
             }
         }

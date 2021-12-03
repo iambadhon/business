@@ -904,27 +904,6 @@ p {
 
 /*=============================footer section end=============================*/
 
-
-/*==========================preloader section start==========================*/
-.preloader {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    background: #DFDFDF;
-    z-index: 99999999999;
-}
-
-.preloader img {
-    max-width: 100%;
-    align-self: center;
-}
-
-/*==========================preloader section end==========================*/
-
 /*==========================scroll to top section start==========================*/
 .scroll_to_top {
     position: fixed;
