@@ -85,52 +85,62 @@
 
 /*======================medium device start======================*/
 @media(min-width:768px) and (max-width:992px) {
+    .navbar-brand {
+        padding-top: 0;
+    }
+
+    .main_manu .menu ul {
+        text-align: center;
+        background: #c4dfec;
+        padding: 5px 0;
+    }
+
+    .main_manu .menu ul li a {
+        line-height: 40px !important;
+        margin: 2px 0;
+        color: #222 !important;
+        font-weight: 600 !important;
+    }
+
+    .main_manu .menu ul li a.active {
+        background: #e7ad48 !important;
+        color: #ffffff !important;
+    }
+
+    .main_manu .menu ul li a:hover {
+        background: #e7ad48;
+        color: #ffffff !important;
+    }
+
     .nav_sticky {
         height: 60px;
     }
 
     .nav_sticky .menu ul li a {
+        line-height: 40px;
+    }
+
+    #theme i {
         line-height: 50px;
+        color: #222;
     }
 
-    .navbar-brand {
-        padding-top: 0;
+    #theme i:hover {
+        color: #e7ad48;
     }
 
-    .logo img {
-        width: 180px !important;
-    }
-
-    .navbar-toggler i {
-        color: #ffffff;
-    }
-
-    .navbar-light .navbar-toggler {
-        border-color: #ffffff;
-    }
-
-    .navbar-toggler:focus {
-        box-shadow: none;
-    }
-
-    .main_manu ul {
-        text-align: center;
-        background: gray;
-        /* height: 100vh; */
-    }
-
-    .main_manu ul li a {
+    .nav_sticky .menu ul #theme i {
         line-height: 50px;
     }
 
     .banner_text h1 {
-        font-size: 35px;
-        line-height: 35px;
+        font-size: 42px;
+        line-height: 42px;
     }
 
     .banner_text p {
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 22px;
+        line-height: 24px;
         padding-top: 10px;
     }
 
@@ -151,7 +161,7 @@
     }
 
     .banner_text .banner_btn a {
-        font-size: 14px;
+        font-size: 16px;
         padding: 10px 16px;
         border-radius: 3px;
     }
@@ -184,7 +194,7 @@
     }
 
     .our_offer_head h2 {
-        font-size: 25px;
+        font-size: 30px;
         line-height: 30px;
         margin-bottom: 8px;
     }
@@ -233,7 +243,7 @@
     }
 
     .who_we_are_text h2 {
-        font-size: 22px;
+        font-size: 30px;
         margin-bottom: 15px;
     }
 
@@ -260,7 +270,7 @@
     }
 
     .our_work_head h2 {
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 5px;
     }
 
@@ -270,7 +280,7 @@
     }
 
     .our_work_head p {
-        font-size: 15px;
+        font-size: 16px;
         margin-bottom: 45px;
     }
 
@@ -291,7 +301,7 @@
     }
 
     .testimonial_head h2 {
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 5px;
     }
 
@@ -388,52 +398,62 @@
 
 /*======================small device start======================*/
 @media(min-width:576px) and (max-width:767px) {
+    .navbar-brand {
+        padding-top: 0;
+    }
+
+    .main_manu .menu ul {
+        text-align: center;
+        background: #c4dfec;
+        padding: 5px 0;
+    }
+
+    .main_manu .menu ul li a {
+        line-height: 40px !important;
+        margin: 2px 0;
+        color: #222 !important;
+        font-weight: 600 !important;
+    }
+
+    .main_manu .menu ul li a.active {
+        background: #e7ad48 !important;
+        color: #ffffff !important;
+    }
+
+    .main_manu .menu ul li a:hover {
+        background: #e7ad48;
+        color: #ffffff !important;
+    }
+
     .nav_sticky {
-        height: 55px;
+        height: 60px;
     }
 
     .nav_sticky .menu ul li a {
         line-height: 40px;
     }
 
-    .navbar-brand {
-        padding-top: 0;
+    #theme i {
+        line-height: 50px;
+        color: #222;
     }
 
-    .logo img {
-        width: 150px !important;
+    #theme i:hover {
+        color: #e7ad48;
     }
 
-    .navbar-toggler i {
-        color: #ffffff;
-    }
-
-    .navbar-light .navbar-toggler {
-        border-color: #ffffff;
-    }
-
-    .navbar-toggler:focus {
-        box-shadow: none;
-    }
-
-    .main_manu ul {
-        text-align: center;
-        background: gray;
-        /* height: 100vh; */
-    }
-
-    .main_manu ul li a {
-        line-height: 40px;
+    .nav_sticky .menu ul #theme i {
+        line-height: 50px;
     }
 
     .banner_text h1 {
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 35px;
+        line-height: 35px;
     }
 
     .banner_text p {
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 24px;
         padding-top: 10px;
     }
 
@@ -450,8 +470,8 @@
     }
 
     .banner_text .banner_btn a {
-        font-size: 14px;
-        padding: 8px 10px;
+        font-size: 16px;
+        padding: 10px 15px;
         border-radius: 3px;
     }
 
@@ -479,18 +499,18 @@
     }
 
     .our_offer_head {
-        margin-bottom: 45px;
+        margin-bottom: 60px;
     }
 
     .our_offer_head h2 {
-        font-size: 22px;
-        line-height: 20px;
-        margin-bottom: 8px;
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
     }
 
     .our_offer_head p {
-        font-size: 13px;
-        line-height: 18px;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .offer_item {
@@ -531,7 +551,7 @@
     }
 
     .who_we_are_text h2 {
-        font-size: 22px;
+        font-size: 30px;
         margin-bottom: 25px;
     }
 
@@ -558,7 +578,7 @@
     }
 
     .our_work_head h2 {
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 5px;
     }
 
@@ -568,7 +588,7 @@
     }
 
     .our_work_head p {
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 40px;
     }
 
@@ -589,7 +609,7 @@
     }
 
     .testimonial_head h2 {
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 6px;
     }
 
@@ -694,51 +714,61 @@
 
 /*======================extra small device start======================*/
 @media(max-width:575px) {
+    .navbar-brand {
+        padding-top: 0;
+    }
+
+    .main_manu .menu ul {
+        text-align: center;
+        background: #c4dfec;
+        padding: 5px 0;
+    }
+
+    .main_manu .menu ul li a {
+        line-height: 40px !important;
+        margin: 2px 0;
+        color: #222 !important;
+        font-weight: 600 !important;
+    }
+
+    .main_manu .menu ul li a.active {
+        background: #e7ad48 !important;
+        color: #ffffff !important;
+    }
+
+    .main_manu .menu ul li a:hover {
+        background: #e7ad48;
+        color: #ffffff !important;
+    }
+
     .nav_sticky {
-        height: 55px;
+        height: 60px;
     }
 
     .nav_sticky .menu ul li a {
         line-height: 40px;
     }
 
-    .navbar-brand {
-        padding-top: 0;
+    #theme i {
+        line-height: 50px;
+        color: #222;
     }
 
-    .logo img {
-        width: 150px !important;
+    #theme i:hover {
+        color: #e7ad48;
     }
 
-    .navbar-toggler i {
-        color: #ffffff;
-    }
-
-    .navbar-light .navbar-toggler {
-        border-color: #ffffff;
-    }
-
-    .navbar-toggler:focus {
-        box-shadow: none;
-    }
-
-    .main_manu ul {
-        text-align: center;
-        background: gray;
-        /* height: 100vh; */
-    }
-
-    .main_manu ul li a {
-        line-height: 40px;
+    .nav_sticky .menu ul #theme i {
+        line-height: 50px;
     }
 
     .banner_text h1 {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 35px;
     }
 
     .banner_text p {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 20px;
         padding-top: 10px;
     }
@@ -785,17 +815,17 @@
     }
 
     .our_offer_head {
-        margin-bottom: 45px;
+        margin-bottom: 60px;
     }
 
     .our_offer_head h2 {
-        font-size: 22px;
+        font-size: 30px;
         line-height: 20px;
-        margin-bottom: 8px;
+        margin-bottom: 15px;
     }
 
     .our_offer_head p {
-        font-size: 13px;
+        font-size: 16px;
         line-height: 18px;
     }
 
@@ -830,7 +860,7 @@
     }
 
     .who_we_are_text h2 {
-        font-size: 22px;
+        font-size: 30px;
         margin-bottom: 25px;
     }
 
@@ -857,7 +887,7 @@
     }
 
     .our_work_head h2 {
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 5px;
     }
 
@@ -867,7 +897,7 @@
     }
 
     .our_work_head p {
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 40px;
     }
 
@@ -888,7 +918,7 @@
     }
 
     .testimonial_head h2 {
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 6px;
     }
 

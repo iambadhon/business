@@ -79,6 +79,24 @@ p {
     z-index: 99999;
 }
 
+.main_manu .menu ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100px;
+    font-family: 'Open Sans',
+        sans-serif;
+    padding: 0 20px !important;
+    color: #fff !important;
+}
+
+.main_manu .menu ul li a:hover {
+    color: #ffc155 !important;
+}
+
+.main_manu .menu ul li a.active {
+    color: #ffc155 !important;
+}
+
 .nav_sticky {
     position: fixed;
     background: rgba(113, 182, 213, 0.9);
@@ -106,6 +124,11 @@ p {
     font-weight: 600;
 }
 
+.nav_sticky .menu ul li a.active {
+    background: #e7ad48;
+    color: #ffffff !important;
+}
+
 .nav_sticky .menu ul li a:hover {
     background: #e7ad48;
     color: #ffffff !important;
@@ -120,18 +143,66 @@ p {
     color: #e7ad48 !important;
 }
 
-.main_manu ul li a {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 100px;
-    font-family: 'Open Sans',
-        sans-serif;
-    padding: 0 20px !important;
-    color: #fff !important;
+.navbar .navbar-toggler {
+    padding: 3px 7px 6px 7px;
+    border-color: var(--primary-color);
+    border-radius: 0rem;
+    -webkit-border-radius: 0rem;
+    -moz-border-radius: 0rem;
+    -ms-border-radius: 0rem;
+    -o-border-radius: 0rem;
 }
 
-.main_manu ul li a:hover {
-    color: #ffc155 !important;
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler-icon {
+    width: 24px;
+    height: 19px;
+    background-image: none;
+    position: relative;
+    border-bottom: 3px solid var(--primary-color);
+    transition: all .3s linear;
+}
+
+.navbar .navbar-toggler-icon::after,
+.navbar .navbar-toggler-icon::before {
+    width: 24px;
+    position: absolute;
+    height: 3px;
+    background-color: var(--primary-color);
+    top: 0;
+    left: 0;
+    content: '';
+    z-index: 2;
+    transition: all .3s linear;
+}
+
+.navbar .navbar-toggler-icon::after {
+    top: 8px;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    background: var(--fifth-color);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+    transform: translateY(8px) rotate(-45deg);
+    -webkit-transform: translateY(8px) rotate(-45deg);
+    -moz-transform: translateY(8px) rotate(-45deg);
+    -ms-transform: translateY(8px) rotate(-45deg);
+    -o-transform: translateY(8px) rotate(-45deg);
+    background: var(--fifth-color);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    border-color: transparent;
 }
 
 /*=============================nav section end=============================*/
@@ -170,6 +241,7 @@ p {
     color: #fff;
     font-family: 'Open Sans',
         sans-serif;
+    margin-bottom: 10px;
 }
 
 .banner_text p {
@@ -310,7 +382,7 @@ p {
 }
 
 .our_offer_head p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
     font-weight: 400;
     font-family: 'Open Sans',
@@ -350,7 +422,7 @@ p {
 }
 
 .offer_item .offer_text h3 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 22px;
     color: var(--third-color);
@@ -361,7 +433,7 @@ p {
 }
 
 .offer_item .offer_text p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     color: var(--fourth-color);
@@ -382,7 +454,7 @@ p {
 }
 
 .who_we_are_text h2 {
-    font-size: 26px;
+    font-size: 30px;
     line-height: 22px;
     font-weight: 700;
     color: #fff;
@@ -393,7 +465,7 @@ p {
 }
 
 .who_we_are_text p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #fff;
@@ -639,7 +711,7 @@ p {
 }
 
 .testimonial_item .testimonial_text p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: #747474;
@@ -654,7 +726,7 @@ p {
 }
 
 .testimonial_item .testimonial_user h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 24px;
     color: #4d4e50;
@@ -713,7 +785,7 @@ p {
 }
 
 .footer_item .footer_logo_text p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     font-weight: 400;
     color: #c3c3c3;
@@ -723,7 +795,7 @@ p {
 }
 
 .footer_head h2 {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 20px;
     font-weight: 400;
     color: #fff;
@@ -733,7 +805,7 @@ p {
 }
 
 .footer_contact_text p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     color: #c4c4c4;
@@ -749,7 +821,7 @@ p {
 }
 
 .footer_contact_text ul li a {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     color: #fff;
     font-family: 'Open Sans',
@@ -782,7 +854,7 @@ p {
 }
 
 .footer_tweets_text .footer_tweets_item p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     color: #c4c4c4;
@@ -791,7 +863,7 @@ p {
 }
 
 .footer_tweets_text .footer_tweets_item span {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     color: #71b6d5;
@@ -805,7 +877,7 @@ p {
 
 
 .footer_news_text p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     color: #c4c4c4;
@@ -828,10 +900,14 @@ p {
     border-top-left-radius: 5px;
 }
 
+.email_submit .email:focus {
+    border: 1px solid #71b6d5;
+}
+
 .email_submit .submit {
     background: #71b6d5;
     color: #fff;
-    padding: 10px 9px;
+    padding: 10px 8px;
     border: none;
     font-size: 14px;
     font-weight: 400;

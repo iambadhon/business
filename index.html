@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
     <!--nav section start-->
     <nav class="navbar navbar-expand-lg navbar-light main_manu">
         <div class="container">
@@ -28,12 +28,12 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
+                <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#banner">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#our_offer">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#who_we_are">About</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#our_work">Portfolio</a></li>
@@ -53,8 +53,8 @@
     <!--banner section start-->
     <section id="banner">
 
-        <div class="prevArrow"><i class="fad fa-chevron-left"></i></div>
-        <div class="nextArrow"><i class="fad fa-chevron-right"></i></div>
+        <div class="prevArrow"><i class="fas fa-chevron-left"></i></div>
+        <div class="nextArrow"><i class="fas fa-chevron-right"></i></div>
 
         <div class="banner_slider">
             <div class="banner_img" style="background: url(images/banner1.jpg);">
@@ -125,7 +125,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="offer_item">
                         <div class="offer_icon">
-                            <i class="fal fa-tools"></i>
+                            <i class="fas fa-tools"></i>
                         </div>
                         <div class="offer_text">
                             <h3>Vivamus tincidunt </h3>
@@ -139,7 +139,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="offer_item margin_right">
                         <div class="offer_icon">
-                            <i class="fal fa-shopping-cart"></i>
+                            <i class="fas fa-cart-arrow-down"></i>
                         </div>
                         <div class="offer_text">
                             <h3>Etiam porttitor sagittis ipsum</h3>
@@ -153,7 +153,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="offer_item">
                         <div class="offer_icon">
-                            <i class="fal fa-layer-group"></i>
+                            <i class="fas fa-layer-group"></i>
                         </div>
                         <div class="offer_text">
                             <h3>Vivamus tincidunt diam a iaculis</h3>
@@ -167,7 +167,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="offer_item margin_right">
                         <div class="offer_icon">
-                            <i class="fal fa-desktop-alt"></i>
+                            <i class="fas fa-desktop"></i>
                         </div>
                         <div class="offer_text">
                             <h3>Donec metus augue</h3>
@@ -181,7 +181,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="offer_item margin_bottom">
                         <div class="offer_icon">
-                            <i class="fal fa-tachometer-fast"></i>
+                            <i class="fas fa-tachometer-alt"></i>
                         </div>
                         <div class="offer_text">
                             <h3>Aliquam sed mollis</h3>
@@ -195,7 +195,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="offer_item margin_bottom margin_right">
                         <div class="offer_icon">
-                            <i class="fal fa-globe-stand"></i>
+                            <i class="fas fa-globe-europe"></i>
                         </div>
                         <div class="offer_text">
                             <h3>Vestibulum placerat nisl quis </h3>
@@ -253,7 +253,7 @@
                 <div class="col-lg-12">
                     <div class="our_work_head text-center">
                         <h2>See our work</h2>
-                        <span><i class="fas fa-cog"></i></span>
+                        <span><i class="fas fa-sun"></i></span>
                         <p>Mauris euismod ac nulla vitae fermentum. Morbi ut mauris massa. Sed condimentum elit volutpat
                             turpis sagittis, in<br> scelerisque dui luctus. Nulla id suscipit velit, a maximus massa.
                         </p>
@@ -281,7 +281,7 @@
                         <img src="images/ourwork1.jpg" class="w-100" alt="our work">
                         <div class="our_work_item_overlay">
                             <a href="images/ourwork1.jpg" data-lightbox="image-1" data-title="My caption"> <i
-                                    class="fal fa-plus"></i></a>
+                                    class="fas fa-plus"></i></a>
                             <h3>Labore et dolore magnam </h3>
                             <h4>Wordpress</h4>
                         </div>
@@ -292,8 +292,8 @@
                     <div class="our_work_item ">
                         <img src="images/ourwork2.jpg" class="w-100" alt="our work">
                         <div class="our_work_item_overlay">
-                            <a href="images/ourwork2.jpg" data-lightbox="image-1" data-title="My caption"> <i
-                                    class="fal fa-plus"></i></a>
+                            <a href="images/ourwork2.jpg" data-lightbox="image-1" data-title="My caption"><i
+                                    class="fas fa-plus"></i></a>
                             <h3>Labore et dolore magnam </h3>
                             <h4>Wordpress</h4>
                         </div>
@@ -304,8 +304,8 @@
                     <div class="our_work_item ">
                         <img src="images/ourwork3.jpg" class="w-100" alt="our work">
                         <div class="our_work_item_overlay">
-                            <a href="images/ourwork3.jpg" data-lightbox="image-1" data-title="My caption"> <i
-                                    class="fal fa-plus"></i></a>
+                            <a href="images/ourwork3.jpg" data-lightbox="image-1" data-title="My caption"><i
+                                    class="fas fa-plus"></i></a>
                             <h3>Labore et dolore magnam </h3>
                             <h4>Wordpress</h4>
                         </div>
@@ -316,8 +316,9 @@
                     <div class="our_work_item ">
                         <img src="images/ourwork4.jpg" class="w-100" alt="our work">
                         <div class="our_work_item_overlay">
-                            <a href="images/ourwork4.jpg" data-lightbox="image-1" data-title="My caption"> <i
-                                    class="fal fa-plus"></i></a>
+                            <a href="images/ourwork4.jpg" data-lightbox="image-1" data-title="My caption">
+                                <i class="fas fa-plus"></i>
+                            </a>
                             <h3>Labore et dolore magnam </h3>
                             <h4>Wordpress</h4>
                         </div>
@@ -328,8 +329,8 @@
                     <div class="our_work_item ">
                         <img src="images/ourwork5.jpg" class="w-100" alt="our work">
                         <div class="our_work_item_overlay">
-                            <a href="images/ourwork5.jpg" data-lightbox="image-1" data-title="My caption"> <i
-                                    class="fal fa-plus"></i></a>
+                            <a href="images/ourwork5.jpg" data-lightbox="image-1" data-title="My caption"><i
+                                    class="fas fa-plus"></i></a>
                             <h3>Labore et dolore magnam </h3>
                             <h4>Wordpress</h4>
                         </div>
@@ -340,8 +341,8 @@
                     <div class="our_work_item ">
                         <img src="images/ourwork6.jpg" class="w-100" alt="our work">
                         <div class="our_work_item_overlay">
-                            <a href="images/ourwork6.jpg" data-lightbox="image-1" data-title="My caption"> <i
-                                    class="fal fa-plus"></i></a>
+                            <a href="images/ourwork6.jpg" data-lightbox="image-1" data-title="My caption"><i
+                                    class="fas fa-plus"></i></a>
                             <h3>Labore et dolore magnam </h3>
                             <h4>Wordpress</h4>
                         </div>
@@ -352,8 +353,8 @@
                     <div class="our_work_item ">
                         <img src="images/ourwork7.jpg" class="w-100" alt="our work">
                         <div class="our_work_item_overlay">
-                            <a href="images/ourwork7.jpg" data-lightbox="image-1" data-title="My caption"> <i
-                                    class="fal fa-plus"></i></a>
+                            <a href="images/ourwork7.jpg" data-lightbox="image-1" data-title="My caption"><i
+                                    class="fas fa-plus"></i></a>
                             <h3>Labore et dolore magnam </h3>
                             <h4>Wordpress</h4>
                         </div>
@@ -364,8 +365,8 @@
                     <div class="our_work_item ">
                         <img src="images/ourwork8.jpg" class="w-100" alt="our work">
                         <div class="our_work_item_overlay">
-                            <a href="images/ourwork8.jpg" data-lightbox="image-1" data-title="My caption"> <i
-                                    class="fal fa-plus"></i></a>
+                            <a href="images/ourwork8.jpg" data-lightbox="image-1" data-title="My caption"><i
+                                    class="fas fa-plus"></i></a>
                             <h3>Labore et dolore magnam </h3>
                             <h4>Wordpress</h4>
                         </div>
@@ -384,7 +385,7 @@
                 <div class="col-lg-12">
                     <div class="testimonial_head text-center">
                         <h2>testimonials</h2>
-                        <span><i class="fad fa-comments"></i></span>
+                        <span><i class="fas fa-comments"></i></span>
                     </div>
                 </div>
             </div>
@@ -401,7 +402,7 @@
                                 illum qui.”</p>
                         </div>
                         <div class="testimonial_user">
-                            <i class="fad fa-user-secret"></i>
+                            <i class="fas fa-user-tie"></i>
                             <h3>Jon Doe,</h3>
                             <span> Company Inc.</span>
                         </div>
@@ -418,7 +419,7 @@
                                 illum qui.”</p>
                         </div>
                         <div class="testimonial_user">
-                            <i class="fad fa-user-secret"></i>
+                            <i class="fas fa-user-tie"></i>
                             <h3>Jon Doe,</h3>
                             <span> Company Inc.</span>
                         </div>
@@ -435,7 +436,7 @@
                                 illum qui.”</p>
                         </div>
                         <div class="testimonial_user">
-                            <i class="fad fa-user-secret"></i>
+                            <i class="fas fa-user-tie"></i>
                             <h3>Jon Doe,</h3>
                             <span> Company Inc.</span>
                         </div>
@@ -452,7 +453,7 @@
                                 illum qui.”</p>
                         </div>
                         <div class="testimonial_user">
-                            <i class="fad fa-user-secret"></i>
+                            <i class="fas fa-user-tie"></i>
                             <h3>Jon Doe,</h3>
                             <span> Company Inc.</span>
                         </div>
@@ -492,7 +493,7 @@
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                                     suffered alteration in so</p>
                                 <ul>
-                                    <li><a href="#"><i class="fad fa-map-marker-alt"></i>hyderabadh</a></li>
+                                    <li><a href="#"><i class="fas fa-map-marker-alt"></i>hyderabadh</a></li>
                                     <li><a href="#"><i class="fas fa-envelope"></i>info@company.com</a></li>
                                     <li><a href="#"><i class="fas fa-phone-alt"></i>123 456 7890</a></li>
                                 </ul>
@@ -581,7 +582,7 @@
 
     <!--scroll to top section start-->
     <div class="scroll_to_top">
-        <i class="fad fa-chevron-double-up"></i>
+        <i class="fas fa-level-up-alt"></i>
     </div>
     <!--scroll to top section end-->
 
